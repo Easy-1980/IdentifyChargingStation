@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+secrets.py
+*_secret.py
+*_secrets.py
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded/generated street-view images
+images/
+CLIP/images/
+Old/
+
+# CLIP generated outputs and visual review artifacts
+CLIP/results/
+CLIP/contact_sheets/
+
+# Local annotation/output folders
+count_annotation/
+
+
+
+CLIP/clip_experiment_summary.md
+
+AK.txt
+CLIP/sample_points_annotated.csv
+CLIP/check_paths.py
