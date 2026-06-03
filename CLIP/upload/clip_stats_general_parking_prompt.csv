@@ -1,0 +1,24 @@
+﻿section,metric,human_label,clip_pred,sample_id,value
+run,rows,,,,76
+run,model,,,,laion/CLIP-ViT-B-32-laion2B-s34B-b79K
+run,margin_threshold,,,,-0.1
+run,min_keep_score,,,,0.24
+run,prompt_count,,,,40
+clip_pred_count,count,,keep,,75
+clip_pred_count,count,,invalid_image,,1
+human_label_count,count,negative,,,37
+human_label_count,count,positive,,,16
+human_label_count,count,suspected,,,15
+human_label_count,count,invalid,,,8
+human_label_by_clip_pred,count,invalid,invalid_image,,1
+human_label_by_clip_pred,count,invalid,keep,,7
+human_label_by_clip_pred,count,negative,invalid_image,,0
+human_label_by_clip_pred,count,negative,keep,,37
+human_label_by_clip_pred,count,positive,invalid_image,,0
+human_label_by_clip_pred,count,positive,keep,,16
+human_label_by_clip_pred,count,suspected,invalid_image,,0
+human_label_by_clip_pred,count,suspected,keep,,15
+quality,risky_drops_positive_or_suspected,,,,0
+quality,dropped_rows,,,,0
+quality,invalid_image_rows,,,,1
+invalid_image_rows,clip_error,invalid,invalid_image,NanJing_LBY_R003_0040_H090,UnidentifiedImageError: cannot identify image file 'D:\\SelfProject\\IdentifyChargingStation\\images\\NanJing_LBY_R003_0040_H090.jpg'
