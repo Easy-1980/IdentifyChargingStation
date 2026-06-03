@@ -1,0 +1,13 @@
+﻿station_id,station_name,road_id,point_name,point_order,lng_bd09,lat_bd09,is_shared_point,shared_with
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R001,NanJing_LBY_R001_P001,1,118.721024,32.032063,否,
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R001,NanJing_LBY_R001_P002,2,118.721079,32.032190,否,
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R001,NanJing_LBY_R001_P003,3,118.721107,32.032454,否,
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R001,NanJing_LBY_R001_P004,4,118.721048,32.032717,是,NanJing_LBY_R002_P001
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R002,NanJing_LBY_R002_P001,1,118.721048,32.032717,是,NanJing_LBY_R001_P004
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R002,NanJing_LBY_R002_P002,2,118.721246,32.032842,是,NanJing_LBY_R003_P001
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R003,NanJing_LBY_R003_P001,1,118.721246,32.032842,是,NanJing_LBY_R002_P002
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R003,NanJing_LBY_R003_P002,2,118.721353,32.032654,否,
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R003,NanJing_LBY_R003_P003,3,118.721578,32.032178,是,NanJing_LBY_R004_P001
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R004,NanJing_LBY_R004_P001,1,118.721578,32.032178,是,NanJing_LBY_R003_P003
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R004,NanJing_LBY_R004_P002,2,118.721624,32.032084,否,
+NanJing_LBY,蔚来能源充电站南京绿博园,NanJing_LBY_R004,NanJing_LBY_R004_P003,3,118.721535,32.031845,否,
